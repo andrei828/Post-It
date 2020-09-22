@@ -5,8 +5,6 @@
 ##### [Video presentation](https://www.youtube.com/watch?v=FXMhdWJiLFk)
 
 
-See the platform in action [here](https://www.youtube.com/watch?v=FXMhdWJiLFk).
-
 ![First page application](https://github.com/danadascalescu00/PostIt/blob/master/Design/Asset%201.png)
 
 ## Getting started

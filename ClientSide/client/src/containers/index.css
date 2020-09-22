@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.reaction{
+    width: 16px;
+    height: 16px;
+}
+.facebookProfileImage{
+    width: 40px;
+    height: auto;
+}
+
+.facebookFooter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+.preview{
+    background-color: white;
+    width: 250px;
+}
+.previewCreator{
+    height: 100px;
+    padding: 10px;
+}
+
+.previewList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.previewHeader{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+}
+
+.previewContent{
+    padding: 10px;
+}
+
+.previewFooter{
+    padding: 5px;
+}
+
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+

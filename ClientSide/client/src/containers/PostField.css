@@ -1,0 +1,21 @@
+
+.postTextFieldButton {
+    justify-content: center;
+    display: grid;
+    margin-bottom: 30px;
+}
+
+.innerContainerPost {
+    width: fit-content;
+    position: relative;
+}
+
+.postButton {
+    position: absolute !important;
+    right: 1.5% !important;
+}
+
+.editButtonGroup {
+    position: absolute !important;
+    left: 1.5% !important;
+}

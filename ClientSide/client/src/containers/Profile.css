@@ -1,0 +1,53 @@
+.modal-dialog {
+max-width: 80% !important;
+min-height: 50% !important;
+
+  /* position: fixed;
+  max-width: 85% !important;
+  min-height: 90% !important; */
+}
+
+.modal-content { 
+    height: 80vh !important;
+    border-radius: 15px !important;
+}
+   
+
+#postModalTitle {
+    width: 103%;
+    align-content: center;
+}
+
+.modalPreview {
+    text-align: center !important;
+    font-weight: lighter;
+    font-size: 180%;
+    color: palevioletred;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+.cards {
+    display: flex;
+    transform: translateY(50%);
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 2100px) and (min-width: 1900px) {
+    .MuiCard-root {
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 1900px)  and (min-width: 1800px){
+    .MuiCard-root {
+        transform: scale(0.7);
+    }
+}
+
+@media only screen and (max-width: 1800px){
+    .MuiCard-root {
+        transform: scale(0.6);
+    }
+}

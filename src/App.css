@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap&subset=latin-ext');
+
+body {
+    font: Ralwey;
+    background-color: hsl(0, 0%, 98%);
+}
+
+a {
+font-family : Raleway;
+font-size : 1.25em;
+color : #2E3192;
+}
+

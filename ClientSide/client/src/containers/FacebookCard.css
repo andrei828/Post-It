@@ -1,0 +1,23 @@
+.HeaderCard {
+    display: flex;
+}
+
+.fbProfile {
+    transform: translate(10px, 3px);
+}
+
+.FooterContainerRight {
+    width: fit-content;
+    float: right;
+    padding: 15px;
+    font-size: smaller;
+    color: grey;
+}
+
+.FooterContainerLeft {
+    width: fit-content;
+    float: left;
+    padding: 15px;
+    font-size: smaller;
+    color: grey;
+}

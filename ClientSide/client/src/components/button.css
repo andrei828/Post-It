@@ -1,0 +1,54 @@
+:root {
+    --my--primary: #4fb2e7;
+    --my--secondary: #839bff;
+    --my--third: #516abb;
+}
+
+.my--btn {
+    font-family: 'Ralwey', 'Open Sans';
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* position: absolute; */
+}
+
+.my--btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px rgba(79.0, 178.0, 231.0, 0.5);
+}
+
+/* Button Colors and Styles */
+
+.my--btn--primary--solid {
+    background-color: var(--my--primary);
+    color: var(--white);
+    border: none;
+    z-index: 10;
+}
+
+.not--found {
+    background-color: var(--my--third);
+    color: var(--white);
+    border: none;
+    left: 15%;
+    bottom: 24%;
+}
+
+.my--btn--style {
+    background-color: var(--my--secondary);
+    color: var(--white);
+    border: none;
+}
+
+/* Button Sizes*/
+
+.my--btn--large {
+    padding: 18px 32px;
+    font-size: 20px;
+}
+
+.my--btn--medium {
+    padding: 15px 20px;
+    font-size: 10px;
+}

@@ -1,0 +1,91 @@
+.logo{
+    position: relative;
+    padding: 2.4em 0;
+    margin:0;
+    text-align: center;
+}
+
+.black-bar{
+    background-color: rgb(190, 190, 190);
+    font-size: .7px;
+    width: 98%;
+    position: relative;
+    left: 1%;
+    bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.footer-message{
+  font-weight: bolder;
+  text-align: center;
+  padding: 1.2em 0em;
+  font-size: 1em;
+}
+
+.half{
+  clear: both;
+  text-align: center;
+  width: 100%;
+}
+
+.login-subtitle{
+    text-align: center;
+    padding: 1.2em 0em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.login-row {
+    text-align: center;
+    margin:2em;
+}
+
+.text-field {
+  padding: 0.3em !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1625px) {
+    .logo {
+      /* left: 44%; */
+    }
+  }
+
+@media only screen and (max-width: 1320px) {
+    .logo {
+        /* left: 43%; */
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+      /* left: 42%; */
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .logo {
+      /* left: 40%; */
+    }
+  }
+
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        /* left: 38%; */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .logo {
+        /* left: 36%;
+        width: 28%; */
+    }
+}

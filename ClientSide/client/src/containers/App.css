@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap&subset=latin-ext');
+
+body {
+    font: Ralwey;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.navbar-toggler{
+  display:none;
+}
+
+a {
+font-family : Raleway;
+font-size : 1.25em;
+color : #2E3192;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 1140px){
+  .nav-link{
+    padding: 2em !important;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 1000px){
+  .nav-link{
+    padding: 1.5em !important;
+    font-size: large;
+  }
+}
+
+@media (max-width: 970px){
+  .nav-link{
+    padding: 1.2em !important;
+    font-size: medium;
+    
+  }
+}
+
+
+
+@media (max-width: 530px){
+  .nav-link{
+    padding: 1em !important;
+    font-size: medium;    
+  }
+
+}
+
+
+@media (max-width: 500px){
+  .nav-link{
+    padding: 0.5em !important;
+    font-size: medium;      
+  }
+
+  .nav.justify-content-end{
+    padding: 1em;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logoPostit{
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 360px){
+  .nav-link{
+    padding: 1em !important;
+    font-size: medium;    
+  }
+
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+    display: inline;
+  }
+}
+
+  
+@media (max-width: 362px){
+  .nav-link{
+    padding: 0.5em !important;
+    font-size: small;    
+  }
+
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+    display: inline;
+  }
+
+}

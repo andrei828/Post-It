@@ -1,0 +1,44 @@
+.TwitterContent {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 10% 90%;
+    padding: 0px !important;
+}
+
+.LeftCardTwitter {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-size: 70%;
+    color: red;
+    padding-top: 12px;
+}
+
+.RightCardTwitter {
+    position: relative;
+    height: 100%;
+}
+
+.TwitterInfo {
+    color: grey;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.TwitterTitle {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 8px
+}
+
+.TwitterBody {
+    padding-top: 4px;
+    padding-left: 8px
+}
+
+.TwitterFooter {
+    position: absolute;
+    bottom: 15px;
+    transform: translateX(-8px);
+}

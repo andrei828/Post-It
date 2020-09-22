@@ -1,0 +1,45 @@
+<script>
+	window.onload = () => {
+		document.getElementById("postOnFacebook").addEventListener("click", function() {
+			
+		})
+	}
+</script>
+
+
+<p>
+ID: <%= item.id %><br/>
+Username: <%= user.username %><br/>
+Facebook Name: <%= user.facebookUsername %><br/>
+<% if (user.emails) { %>
+Email: <%= user.emails[0].value %><br/>
+<% } %>
+<%= user.facebookToken %>
+<% if (user.facebookPagesList && user.facebookPagesList[0] != undefined) { %>
+	<%= user.facebookPagesList[0].name %>
+	<%= user.facebookPagesList[0].pageAccessToken %>
+<% } %>
+</p>
+<form action="/post/facebook" method="post">
+	<div>
+	<input type="text" id="postContent" name="postContent"/><br/>
+	<input type="submit" value="Post on facebook"/>
+	</div>
+</form>
+<form action="/post/reddit" method="post">
+	<div>
+	<input type="text" id="postContent" name="postContent"/><br/>
+	<input type="submit" value="Post on reddit"/>
+	</div>
+</form>
+<!-- <input type="text" id="postContent" name="postContent"><br><br>
+<button id="postOnFacebook">Post on facebook</button> -->
+
+<% if (false) { %>
+	<p>Hello, facebook user</p>
+<% } else { %>
+	<a href="/login/facebook">Log In with Facebook</a>
+	<a href="/login/reddit">Login with Reddit</a>
+<% } %>
+
+<a href="/logout">Log out</a>

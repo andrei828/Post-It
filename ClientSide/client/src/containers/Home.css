@@ -1,0 +1,248 @@
+
+
+.HomePageContent {
+    height: 100%;
+    background: url('./Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:90% 100vh;
+}
+
+
+
+.Isometric{
+    height: 100vh;
+}
+
+.firstContainer {
+    position: relative;
+    left: 65%;
+    top: -45em;
+    margin: 0px;
+    width: fit-content;
+}
+
+.nav {
+    padding: 10px 50px 10px;
+  }
+
+
+
+.myContainer {
+    position: relative;
+    width: 100%;
+    background-color:  #ffffff;
+    padding: 0% 5% 5%;
+    text-align: center;
+    top: 10%;
+}
+
+.myContainer2 {
+    position: relative;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: left;
+    padding: 1px 10px 5px 10px;
+    margin-bottom: 6%;
+}
+
+.container3Columns:before {
+    padding-top: 1px;
+}
+
+.container3Columns {
+    padding: 38px 30px 40px;
+    width: 33.33%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.container3Columns > p {
+    font-family : Raleway;
+    font-size : 1.20em;
+    color : #2E3192;
+}
+
+.flexContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(15px -4px 12px rgba(24,73,120,0.4));
+    filter: drop-shadow(15px -4px 12px rgba(24,73,120,0.4));
+
+}
+
+.title {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 3em;
+    color: #3f5eab;
+    position: relative;
+
+    /* position: absolute; */
+
+}
+
+.subtitle {
+    font-family: 'Raleway';
+    font-weight: bold;
+    position: relative;
+    font-size: 2em;
+    color: #3f5eab;
+    /* position: absolute; */
+}
+
+.text-box {
+    /* width: 17em; */
+    font-family: 'Raleway';
+    /* position: absolute; */
+    z-index: 6;
+    /* text-align: center; */
+    color: #2E3192;
+}
+
+.text-box p{
+    margin-bottom: .3em;
+    position: relative;
+}
+
+.headLine {
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 2em;
+    text-align: left;
+    color: #516abb;
+}
+
+.container2Columns {
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.container2Columns > p {
+    text-align: center;
+    margin: 3%;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 3%;
+}
+
+.container2Columns > h2 {
+    color: white;
+    text-align: left;
+    margin: 3%;
+}
+
+.container2 {
+    width: 100%;
+    padding-top: 2%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3f5eab;
+}
+
+.emphasize {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Raleway';
+    color : #3f5eab;
+    padding-top: 4.5%;
+}
+
+@media (max-width: 1700px){
+    .firstContainer {
+        left: 65%;
+        top: -34em;
+    }
+  }
+
+  @media (max-width: 1500px){
+    .firstContainer {
+        left: 65%;
+        top: -28em;
+    }
+  }
+
+  @media (max-width: 1140px){
+    .firstContainer {
+        top:-18em;
+        left: 60%;
+        scroll-margin-right: 0 !important;
+    }
+  }
+
+  @media (max-width: 1140px){
+    .firstContainer {
+        top:-18em;
+        left: 60%;
+        scroll-margin-right: 0 !important;
+    }
+  }
+
+
+  @media (max-width: 650px ) {
+    .HomePage {
+        background-position: center center;
+    }
+
+    .HomePageContent {
+        align-items: flex-around;
+        justify-content: center;
+    }
+
+    .container2Columns.img{
+        display:none;
+    }
+
+    .container2Columns{
+        width: 80% ;
+    }
+
+    .container2Columns h2{
+        font-size: larger;
+        text-align: center;
+    }
+    
+    .container2Columns p{
+        font-size: medium ;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+    }
+
+    .container3Columns{
+        width: 80%;
+        text-align: center;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .firstContainer {
+        top: 0em;
+        left: 17%;
+        align-self: center;
+        width: 70%;
+        scroll-margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 530){
+    .firstContainer {
+        top: 18em;
+        left: 15%;
+        
+    }
+  }
+

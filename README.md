@@ -133,7 +133,7 @@ the local or development environment and once they were fixed they continued to 
 
 ## Authors
 
-* **Ungureanu Liviu Andrei**
+* **Ungureanu Andrei-Liviu**
 * **Stern Cristian David**
 * **Gălățan Alexandru-Cristian**
 * **Dăscălescu Dana**

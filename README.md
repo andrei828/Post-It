@@ -5,7 +5,7 @@
 ##### [Video presentation](https://www.youtube.com/watch?v=FXMhdWJiLFk)
 
 
-![First page application](https://github.com/danadascalescu00/PostIt/blob/master/Design/Asset%201.png)
+![First page application](https://github.com/andrei828/Post-It/blob/master/Design/Asset%201.png)
 
 ## Getting started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
